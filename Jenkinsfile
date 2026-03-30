@@ -1,5 +1,4 @@
-Create file:
-Jenkinsfile
+
 pipeline {
 
     agent any
