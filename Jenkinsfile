@@ -13,7 +13,7 @@ pipeline {
 
         stage('Run MATLAB Tests') {
             steps {
-                sh 'matlab -batch "run_tests"'
+                bat 'matlab -batch "run_tests"'
             }
         }
 
