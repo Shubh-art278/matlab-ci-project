@@ -17,12 +17,6 @@ pipeline {
             }
         }
 
-        stage('Publish Results') {
-            steps {
-                junit 'test-results.xml'
-            }
-        }
-
     }
 
 }
