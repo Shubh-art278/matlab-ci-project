@@ -1,4 +1,4 @@
-suite = testsuite("test");
+suite = testsuite("tests");
 result = run(suite);
 
 assertSuccess(result);
